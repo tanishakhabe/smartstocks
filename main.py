@@ -94,7 +94,7 @@ def onAppStart(app):
     app.zoomedBoxApple = False
     app.appleFaved = False
     app.selectedIndexApple = None
-    app.appleImage = Image.open('Logo Images/appleLogo.png')
+    app.appleImage = Image.open('assets/logos/appleLogo.png')
     app.appleImage = CMUImage(app.appleImage)
     
     #MODERNA
@@ -107,7 +107,7 @@ def onAppStart(app):
     app.zoomedBoxModerna = False
     app.modernaFaved = False
     app.selectedIndexModerna = None
-    app.modernaImage = Image.open('Logo Images/modernaLogo.png')
+    app.modernaImage = Image.open('assets/logos/modernaLogo.png')
     app.modernaImage = CMUImage(app.modernaImage)
 
     #JNJ
@@ -120,7 +120,7 @@ def onAppStart(app):
     app.zoomedBoxJNJ = False
     app.jnjFaved = False
     app.selectedIndexJNJ = None
-    app.jnjImage = Image.open('Logo Images/jnjLogo.png')
+    app.jnjImage = Image.open('assets/logos/jnjLogo.png')
     app.jnjImage = CMUImage(app.jnjImage)
 
     #BLOCK
@@ -133,7 +133,7 @@ def onAppStart(app):
     app.zoomedBoxBlock = False
     app.blockFaved = False
     app.selectedIndexBlock = None
-    app.blockImage = Image.open('Logo Images/blockLogo.png')
+    app.blockImage = Image.open('assets/logos/blockLogo.png')
     app.blockImage = CMUImage(app.blockImage)
 
     #PAYPAL
@@ -146,7 +146,7 @@ def onAppStart(app):
     app.zoomedBoxPaypal = False
     app.paypalFaved = False
     app.selectedIndexPaypal = None
-    app.paypalImage = Image.open('Logo Images/paypalLogo.png')
+    app.paypalImage = Image.open('assets/logos/paypalLogo.png')
     app.paypalImage = CMUImage(app.paypalImage)
 
     #BOA
@@ -159,7 +159,7 @@ def onAppStart(app):
     app.zoomedBoxBOA = False
     app.boaFaved = False
     app.selectedIndexBOA = None
-    app.boaImage = Image.open('Logo Images/boaLogo.png')
+    app.boaImage = Image.open('assets/logos/boaLogo.png')
     app.boaImage = CMUImage(app.boaImage)
 
     #ELF
@@ -172,7 +172,7 @@ def onAppStart(app):
     app.zoomedBoxELF = False
     app.elfFaved = False
     app.selectedIndexELF = None
-    app.elfImage = Image.open('Logo Images/elfLogo.png')
+    app.elfImage = Image.open('assets/logos/elfLogo.png')
     app.elfImage = CMUImage(app.elfImage)
 
     #PEPSI
@@ -185,7 +185,7 @@ def onAppStart(app):
     app.zoomedBoxPepsi = False
     app.pepsiFaved = False
     app.selectedIndexPepsi = None
-    app.pepsiImage = Image.open('Logo Images/pepsiLogo.png')
+    app.pepsiImage = Image.open('assets/logos/pepsiLogo.png')
     app.pepsiImage = CMUImage(app.pepsiImage)
 
     #SPOTIFY
@@ -198,7 +198,7 @@ def onAppStart(app):
     app.zoomedBoxSpotify = False
     app.spotifyFaved = False
     app.selectedIndexSpotify = None
-    app.spotifyImage = Image.open('Logo Images/spotifyLogo.png')
+    app.spotifyImage = Image.open('assets/logos/spotifyLogo.png')
     app.spotifyImage = CMUImage(app.spotifyImage)
 
     #ATAT
@@ -211,7 +211,7 @@ def onAppStart(app):
     app.zoomedBoxATAT = False
     app.atatFaved = False
     app.selectedIndexATAT= None
-    app.atatImage = Image.open('Logo Images/atatLogo.png')
+    app.atatImage = Image.open('assets/logos/atatLogo.png')
     app.atatImage = CMUImage(app.atatImage)
 
 def main():

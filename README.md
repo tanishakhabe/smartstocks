@@ -1,6 +1,12 @@
+# SmartStocks 
+
+Term Project for CMU 15-112: Fundamentals of Programming and Computer Science 
+
+*Demo:* https://youtu.be/3eq213bQ9BI
+
 The title of my project is SmartStocks, an educational stock recommendation application. First, users can log in or create a new account and select their stock preferences (preferred sectors, price range, etc.), which will be presented as buttons. Then, when the user clicks get recommendations, utilizing a predetermined csv of stocks already integrated, the app will use algorithmic analysis to recommend stocks aligning most closely with users' specific preferences. When a user clicks on the stock, the page will show some information about the stock, along with the current market price. Also, users can view normal and zoomed in graphs for the stocks, along with a feature that allows users to click on certain sections of the graphs to see zoomed-in line segments. There is also a functionality that enables users to access and manage a list of their favorite stocks within their personalized accounts.
 
-Before running the project, make sure you have downloaded all the code files from the folder 'All TP Code & Files', as well as the the 'stocks.csv' and 'stocks - graph.csv' files. Also download all the images within the 'Logo Images' folder. To run the project, simply run the file titled 'main.py'. 
+Before running the project, make sure you have downloaded all the code files from the folder 'All TP Code & Files', as well as the 'data/stocks.csv' and 'data/stocks - graph.csv' files. Also download all the images within the 'assets/logos' folder. To run the project, simply run the file titled 'main.py'.
 
 In my project, I am using the CMU Graphics library and PIL. You will also have to import csv to run the stockData.py file. 
 
@@ -8,4 +14,3 @@ Any shortcut commands (such as a command to access the favorites or the command 
 
 The font I am using, 'monospace', does not have to be installed since it comes with CMU Graphics. 
 
-https://youtu.be/3eq213bQ9BI

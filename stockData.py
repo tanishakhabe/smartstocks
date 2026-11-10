@@ -33,7 +33,7 @@ def readStocksFromCSV(filename):
             stocksList.append(stock)
     return stocksList
 
-stockFile = 'stocks.csv'
+stockFile = 'data/stocks.csv'
 stocksList = readStocksFromCSV(stockFile)
 
 tesla = stocksList[0]
@@ -65,5 +65,5 @@ def readGraphFromCSV(filename):
             companyGraph[companyName] = prices
     return companyGraph
 
-graphFile = 'stocks - graph.csv'
+graphFile = 'data/stocks - graph.csv'
 pricesDict = readGraphFromCSV(graphFile)
