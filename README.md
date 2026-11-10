@@ -1,8 +1,8 @@
 # SmartStocks 
 
-Term Project for CMU 15-112: Fundamentals of Programming and Computer Science 
+*Term Project for CMU 15-112: Fundamentals of Programming and Computer Science*
 
-*Demo:* https://youtu.be/3eq213bQ9BI
+**Demo:** https://youtu.be/3eq213bQ9BI
 
 The title of my project is SmartStocks, an educational stock recommendation application. First, users can log in or create a new account and select their stock preferences (preferred sectors, price range, etc.), which will be presented as buttons. Then, when the user clicks get recommendations, utilizing a predetermined csv of stocks already integrated, the app will use algorithmic analysis to recommend stocks aligning most closely with users' specific preferences. When a user clicks on the stock, the page will show some information about the stock, along with the current market price. Also, users can view normal and zoomed in graphs for the stocks, along with a feature that allows users to click on certain sections of the graphs to see zoomed-in line segments. There is also a functionality that enables users to access and manage a list of their favorite stocks within their personalized accounts.
 
